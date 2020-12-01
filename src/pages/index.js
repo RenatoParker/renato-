@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Button from 'react-bootstrap/Button';
+import ButtonTest from 'react-bootstrap/Button';
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -16,7 +16,7 @@ const IndexPage = () => (
   </Alert>
     <h1>Hi Meri</h1>
     <p>Sei molto utile!!</p>
-    <Button variant="primary">Primary</Button>{' '}
+    <ButtonTest variant="primary">Primary</ButtonTest>{' '}
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
