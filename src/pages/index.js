@@ -14,8 +14,8 @@ const IndexPage = () => (
     <Alert key='first_alert' variant='primary'>
     This is a test alert—check it out!
   </Alert>
-    <h1>Hi Meri</h1>
-    <p>Sei molto utile!!</p>
+    <h1>Hi this is a test with gatsby</h1>
+    <p>Actually I added bootstrap!</p>
     <ButtonTest variant="primary">Primary</ButtonTest>{' '}
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
