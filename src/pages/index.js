@@ -10,7 +10,7 @@ import Alert from 'react-bootstrap/Alert'
 const IndexPage = () => (
   <Layout>
    
-    <SEO title="Home" />
+    <SEO title="-renato-" />
     <Alert key='first_alert' variant='primary'>
     This is a test alert—check it out!
   </Alert>
