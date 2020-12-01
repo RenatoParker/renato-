@@ -1,16 +1,22 @@
 import React from "react"
 import { Link } from "gatsby"
+import Button from 'react-bootstrap/Button';
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Alert from 'react-bootstrap/Alert'
 
 const IndexPage = () => (
   <Layout>
+   
     <SEO title="Home" />
+    <Alert key='first_alert' variant='primary'>
+    This is a test alert—check it out!
+  </Alert>
     <h1>Hi Meri</h1>
     <p>Sei molto utile!!</p>
-    <p>Now go build something great.</p>
+    <Button variant="primary">Primary</Button>{' '}
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
