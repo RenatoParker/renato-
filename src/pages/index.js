@@ -17,9 +17,12 @@ const IndexPage = () => (
     <h1>Hi this is a test with gatsby</h1>
     <p>Actually I added bootstrap!</p>
     <ButtonTest variant="primary">Primary</ButtonTest>{' '}
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    
+    {/*<div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
-    </div>
+
+
+    </div>*/}
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
