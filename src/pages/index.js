@@ -37,13 +37,11 @@ render () {
       <Layout>
        
         <SEO title="-renato-" />
-        <Alert show = {this.state.shown} key='first_alert' variant='primary'>
-        This is a test alert—check it out!
-      </Alert>
+
         <h1>Hi this is a test with gatsby</h1>
         <p>Actually I added bootstrap!</p>
         <ButtonTest onClick={this.handleShown} variant="primary">Primary</ButtonTest>{' '}
-        <button onClick = {this.handleShown}>ciao</button>
+        
         
         {/*<div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
           <Image />
@@ -52,6 +50,9 @@ render () {
         </div>*/}
         <Link to="/page-2/">Go to page 2</Link> <br />
         <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+        <Alert show = {this.state.shown} key='first_alert' variant='success'>
+        Bravo, sai premere un pulsante!
+      </Alert>
       </Layout>
     
 
