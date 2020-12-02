@@ -38,7 +38,10 @@ class IndexPage extends React.Component {
 
         <SEO title="-renato-" />
 
-        <h1>Hi this is a test with gatsby</h1>
+        <h1 style={{
+            color: `Indigo`,
+            textDecoration: `none`,
+          }}>I'm woring on...</h1>
         <p>Actually I added bootstrap!</p>
         <ButtonTest onClick={this.handleShown} variant="primary">CLICCA!!!</ButtonTest>{' '}
 
