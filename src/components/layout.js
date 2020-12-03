@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
         }}>
           © {new Date().getFullYear()} Renato
           {` `}
-          <a href="https://www.gatsbyjs.com"> G</a>
+          
         </footer>
       </div>
     </>
