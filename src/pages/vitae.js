@@ -5,7 +5,7 @@ import ButtonTest from 'react-bootstrap/Button';
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import Alert from 'react-bootstrap/Alert' 
+import Alert from 'react-bootstrap/Alert'
 
 
 
@@ -25,22 +25,22 @@ class Movies extends React.Component {
   render() {
     return (
 
-
-      <div className="styles.timeline">
-      <div className="styles.container left">
-        <div className="styles.content">
-          <h2>2017</h2>
-          <p>Lorem ipsum..</p>
+      <Layout>
+        <div className="styles.timeline">
+          <div className="styles.container left">
+            <div className="styles.content">
+              <h2>2017</h2>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+          <div className="styles.container right">
+            <div className="styles.content">
+              <h2>2016</h2>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="styles.container right">
-        <div className="styles.content">
-          <h2>2016</h2>
-          <p>Lorem ipsum..</p>
-        </div>
-      </div>
-    </div>
-
+      </Layout>
 
 
     )
