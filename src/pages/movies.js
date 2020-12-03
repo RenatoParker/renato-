@@ -27,7 +27,7 @@ class Movies extends React.Component {
       <Layout>
         <div className="container">
           <div className="row">
-            <div className="col">
+            <div className="col-6">
               <ul class="list-group list-group-flush ">
                 <li onClick = {this.handleShown} class="list-group-item list-group-item-warning">
                   2001 odissea nello spazio - Cliccami
@@ -38,8 +38,16 @@ class Movies extends React.Component {
                 <li class="list-group-item">Vestibulum at eros</li></> : <div></div>}
               </ul>
             </div>
-            <div className="col">
-
+            <div className="col-6">
+              <ul class="list-group list-group-flush ">
+                <li onClick = {this.handleShown} class="list-group-item list-group-item-warning">
+                  2001 odissea nello spazio - Cliccami
+                  </li>
+               { this.state.shown ? <><li  class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+                <li class="list-group-item">Vestibulum at eros</li></> : <div></div>}
+              </ul>
             </div>
           </div>
         </div>
