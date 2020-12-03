@@ -7,7 +7,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Alert from 'react-bootstrap/Alert'
 
-class IndexPage extends React.Component {
+class Movies extends React.Component {
   constructor(props) {
     super(props);
     this.state = { shown: false }
@@ -25,32 +25,25 @@ class IndexPage extends React.Component {
 
 
       <Layout>
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <ul class="list-group list-group-flush ">
+                <li onClick = {this.handleShown} class="list-group-item list-group-item-warning">
+                  2001 odissea nello spazio - Cliccami
+                  </li>
+               { this.state.shown ? <><li  class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+                <li class="list-group-item">Vestibulum at eros</li></> : <div></div>}
+              </ul>
+            </div>
+            <div className="col">
 
-        <SEO title="-renato-" />
+            </div>
+          </div>
+        </div>
 
-        <h1 style={{
-            color: `Indigo`,
-            textDecoration: `none`,
-          }}>Perchè questo sito?</h1>
-        <p>Ispirato da ..... (to be completed)</p>
-        <ButtonTest onClick={this.handleShown} variant="primary">CLICCA!!!</ButtonTest>{' '}
-
-
-
-        {/*<div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-          <Image />
-    
-    
-        </div>*/}
-
-        <Alert show={this.state.shown} key='first_alert' variant='warning'>
-          Sto ancora lavorando! Ecco a te un bellisssimo caricamento:
-      </Alert>
-        {this.state.shown ? <div show={this.state.shown} class="loader"></div> : <></>}
-        <div>
-        <Link to="/books/">Go to books' page</Link> <br />
-        <Link to="/movies/">Go to movies' page</Link> <br />
-        <Link to="/using-typescript/">Go to "Using TypeScript"</Link></div>
       </Layout>
 
 
@@ -81,4 +74,4 @@ class IndexPage extends React.Component {
   //   </Layout>
   // )
 }
-export default IndexPage
+export default Movies
