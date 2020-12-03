@@ -47,10 +47,7 @@ class IndexPage extends React.Component {
           Sto ancora lavorando! Ecco a te un bellisssimo caricamento:
       </Alert>
         {this.state.shown ? <div show={this.state.shown} class="loader"></div> : <></>}
-        <div>
-        <Link to="/books/">Go to books' page</Link> <br />
-        <Link to="/movies/">Go to movies' page</Link> <br />
-        <Link to="/using-typescript/">Go to "Using TypeScript"</Link></div>
+       
       </Layout>
 
 
