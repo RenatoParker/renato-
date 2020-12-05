@@ -34,8 +34,8 @@ class Movies extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-6">
-              <ul class="list-group list-group-flush ">
-                <li onClick = {() =>this.handleShown( "tarantino")} class="list-group-item list-group-item-warning">
+              <ul class="list-group ">
+                <li onClick = {() =>this.handleShown( "tarantino")} class="list-group-item list-group-item-primary">
                   Tarantino- Cliccami
                   </li>
                { this.state.showMap["tarantino"] ? <><li  class="list-group-item">Django</li>
@@ -45,12 +45,12 @@ class Movies extends React.Component {
               </ul>
             </div>
             <div className="col-6">
-              <ul class="list-group list-group-flush ">
-                <li id = "kubrick" onClick = {() =>this.handleShown( "kubrick")} class="list-group-item list-group-item-warning">
-                kubrick - Cliccami
-                  </li>
-               { this.state.showMap["kubrick"] ? <><li  class="list-group-item">2001 odissea nello spazio</li>
-                <li class="list-group-item">Morbi leo risus</li>
+              <ul class="list-group ">
+                <li id = "kubrick" onClick = {() =>this.handleShown( "kubrick")} class="list-group-item list-group-item-primary">
+                kubrick - Cliccami </li>
+               { this.state.showMap["kubrick"] ? <>
+                <li  class="list-group-item list-group-item-warning">2001 odissea nello spazio</li>
+                <li class="list-group-item list-group-item-success">Shining</li>
                 <li class="list-group-item">Porta ac consectetur ac</li>
                 <li class="list-group-item">Vestibulum at eros</li></> : <div></div>}
               </ul>
