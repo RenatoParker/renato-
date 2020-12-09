@@ -33,8 +33,11 @@ const Header = ({ siteTitle }) => (
         <p> <h2 style={{
             color: `AntiqueWhite`,
             textDecoration: `none`,
-          }}>&nbsp;&nbsp;→   <Link  to="/movies">movies</Link> <br/>
-          &nbsp;&nbsp;→   <Link  to="/vitae">vitæ</Link> </h2></p>
+          }}>&nbsp;&nbsp;→   <Link  to="/movies">movies</Link> <br/> 
+          &nbsp;&nbsp;→   <Link  to="/books">books</Link> <br/> 
+          &nbsp;&nbsp;→   <Link  to="/vitae">vitæ</Link> </h2>
+          
+          </p>
           
     </div>
   </header>
